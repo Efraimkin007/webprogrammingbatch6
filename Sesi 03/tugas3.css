@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+
+h4{
+  color:rgb(114, 106, 106);
+}
+
 nav {
   background-color: white;
 }
@@ -33,6 +38,12 @@ nav ul li a:hover {
 
 section {
   margin: 20px;
+}
+
+.profile-photo{
+  border-color: black;
+  border-radius: 50%;
+  width: 250px;
 }
 
 form {
@@ -70,20 +81,25 @@ form input[type="submit"] {
 .button1 {
   color : white;
   background-color: blue;
-  border-radius : 10%;
-  padding : 10px;
+  border-radius : 20%;
+  padding : 15px;
 }
 
 .button2{
-  font-style: green;
+  color: green;
+  background-color: white;
   border-color: green;
-  border-radius : 10%;
-  padding : 10px;
+  border-radius : 20%;
+  padding : 15px;
 }
 
-.table{
-   border: none;
-   position: center;
+td{
+  padding: 10px;
+}
+
+td.column1{
+  font-weight:  bold;
+  padding: 10px;
 }
 
 

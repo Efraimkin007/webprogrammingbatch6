@@ -1,0 +1,53 @@
+Algortima hidupkan kipas angin :
+1. Mencari kabel kipas angin
+2. Mencari tempat colokan 
+3. Kabel kipas angin dicolokan ke tempat colokan
+4. Hidupkan tombol on/off kipas angin
+5. Jika ingin sesuai dengan kecepatan angin yang diinginkan maka tekan antara 1-4
+
+
+Algortima membuat lingkaran :
+1. Buat suatu luas lingkaran yang ingin kita buat dengan matriks 2*2
+
+nilai = input(int())
+nilai_temp = 0
+
+for baris in range(baris, nilai, 1):
+    for kolom in range(kolom, nilai, 1):
+        print(nilai[baris][kolom])
+        nilai_temp = nilai[baris][kolom]
+
+break
+
+
+2. Tentukan titik pusatnya dari hasil nomor satu
+for baris in range(baris, nilai, 1):
+    for kolom in range(kolom, nilai, 1):
+        if (baris==kolom):
+            print(baris,",",kolom)
+            print(".")
+        
+
+3. Lalu membuat semua derajat 0 - 360 dari titik pusat
+for baris in range(baris, nilai_temp, 1):
+    for kolom in range(kolom, nilai_temp, 1):
+        if(kolom?)
+            print(".")
+
+#Instruksi nomor 3 belum selesai
+
+
+
+
+Contoh alur berpikir membuat lingkaran dengan matriks Python :
+[1][1] [1][2] [1][3] [1][4] [1][5]
+[2][1] [2][2] [2][3] [2][4] [2][5]
+[3][1] [3][2] [3][3] [3][4] [3][5]
+[4][1] [4][2] [4][3] [4][4] [4][5]
+[5][1] [5][2] [5][3] [5][4] [5][5]
+
+Kalau di baris 1 ngeprint "." Baris 1 Kolom 3
+Kalau di baris 2 ngeprint "." Baris 2 Kolom 2 dan Baris 2 Kolom 4
+Kalau di baris 3 ngeprint "." Baris 3 Kolom 1 dan Baris 3 Kolom 5
+Kalau di baris 4 ngeprint "." Baris 4 Kolom 2 dan Baris 4 Kolom 4
+Kalau di baris 5 ngeprint "." Baris 5 Kolom 3
